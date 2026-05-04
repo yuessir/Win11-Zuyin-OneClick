@@ -1,6 +1,4 @@
-這是一份為你的專案準備的 GitHub README.md 內容，已根據要求移除所有表情符號，並保持專業與簡潔的風格。
 
----
 
 # Windows 11 繁體注音離線安裝工具
 
@@ -17,15 +15,17 @@
 
 ## 檔案結構
 
-在使用本工具前，請確保資料夾中包含以下檔案。請注意，本專案不包含微軟官方的 CAB 檔案，需請使用者自行準備。
+在使用本工具前，請確保資料夾中包含以下檔案。請注意，本專案包含微軟官方的 CAB 檔案，需請使用者自行準備。來源取自
+https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-11-language-packs
+
 
 ```text
 Win11-Zuyin-Installer/
 ├── Install.bat                  (一鍵啟動器，使用者執行此檔)
 ├── Install-Zuyin.ps1            (PowerShell 安裝核心邏輯)
 ├── README.md                    (本說明文件)
-├── Microsoft-Windows-LanguageFeatures-Basic-zh-tw-Package~31bf3856ad364e35~amd64~~.cab   (需自行放入：22H2/23H2 專用語言包)
-└── Microsoft-Windows-LanguageFeatures-Basic-zh-tw-Package~31bf3856ad364e35~amd64~~.cab   (需自行放入：24H2/25H2 專用語言包)
+├── 22H2/23H2 TW專用語言包
+└── 24H2/25H2 TW專用語言包
 ```
 
 
@@ -45,9 +45,7 @@ Win11-Zuyin-Installer/
 
 ## 常見問題與排除
 
-https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-11-language-packs
-
-輸入法取自ISO 來自述上網站 
+ 
 
 ## 授權說明
 本專案採用 MIT 授權條款開放使用。
